@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<employeedetails Empbatch="889923"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="moo.xsd">
+
+	<empno>7369</empno>
+	<ename>smith</ename>
+	<job>clerk</job>
+	<mgr>7902</mgr>
+	<hiredate>17-dec-80</hiredate>
+	<sal>1100</sal>
+	<comm>200</comm>
+	<deptno>20</deptno>
+</employeedetails>
+
+	
+	
+	
+	
+
+	
+	
+	

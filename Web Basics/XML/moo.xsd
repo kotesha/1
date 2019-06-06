@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+	<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<!-- definition of simple elements -->
+		<xs:element name="Empno" type="xs:positiveInteger"/>
+		<xs:element name="Empname" type="xs:string"/>
+		<xs:element name="Job" type="xs:string"/>
+		<xs:element name="Mgr" type="xs:positiveInteger"/>
+		<xs:element name="Hiredate" type="xs:string"/>
+		<xs:element name="Salary" type="xs:decimal"/>
+		<xs:element name="Comm" type="xs:positiveInteger"/>
+		<xs:element name="Deptno" type="xs:positiveInteger"/>
+		
+		<!-- definition of attributes -->
+		<xs:attribute name="Empbatch" type="xs:string"/>
+		<!-- definition of complex elements -->
+		
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element ref="Empno"/>
+					<xs:element ref="Empname"/>
+					<xs:element ref="Job"/>
+					<xs:element ref="Mgr"/>
+					<xs:element ref="Hiredate"/>
+					<xs:element ref="Salary"/>
+					<xs:element ref="Comm"/>\
+					<xs:element ref="Deptno"/>
+				</xs:sequence>
+			</xs:complexType>
+		
+	</xs:schema>
